@@ -77,8 +77,8 @@ a:hover {
 
 .mybutton:hover {
     background-color: rgb(64, 64, 225);
-    color: #fff;
-    border: 1px solid #fff;
+    color: rgb(211, 221, 13);
+    border: 2px solid #fff;
 }
 
 nav .button {
@@ -878,6 +878,14 @@ section .inner h1 span {
         width: 100%;
     }
 
+    .mybutton {
+        width: 100px;
+        margin-top: 8px;
+        height: 32px;
+        font-size: 15px;
+        background-color: rgb(222, 211, 48);
+    }
+
     .footer p {
         width: 100%;
         text-align: center;
@@ -890,4 +898,14 @@ section .inner h1 span {
     .footer .flex {
         justify-content: center;
     }
+}
+
+
+@media only screen and (max-width:347px){
+    
+    nav .logo {
+        width: 40%;
+    }
+    
+
 }
