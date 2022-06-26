@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -867,6 +867,14 @@ section .inner h1 span {
     section .inner h1 span {
         font-size: 130px;
     }
+
+    .section10 input {
+        width:80%;
+    }
+    
+    .section10 textarea {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width:518px) {
@@ -898,6 +906,24 @@ section .inner h1 span {
     .footer .flex {
         justify-content: center;
     }
+
+    .sec8{
+        padding:0;
+    }
+
+    .box3{
+        width:100%;
+    }
+
+    .box4 h3 {
+        padding-top: 10px;
+    }
+    
+    .box4 p {
+        padding: 20px 0px;
+    }
+
+    
 }
 
 
@@ -906,6 +932,10 @@ section .inner h1 span {
     nav .logo {
         width: 40%;
     }
+
+  
+
+
     
 
 }
